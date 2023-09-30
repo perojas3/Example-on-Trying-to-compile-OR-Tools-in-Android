@@ -4,6 +4,7 @@ project("myapplication" VERSION 1.0 LANGUAGES CXX)
 
 set(BUILD_DEPS ON)
 set(__PORTABLE_PLATFORM__)
+set(CMAKE_CROSSCOMPILING)
 include(FetchContent)
 FetchContent_Declare(
         or-tools
